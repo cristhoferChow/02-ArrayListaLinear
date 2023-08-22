@@ -126,10 +126,6 @@ void buscarElemento()
 		if (ctrl == 0) {
 			cout << "Valor nao encontrado" << endl;
 		}
-
-
-
-
 }
 
 	
