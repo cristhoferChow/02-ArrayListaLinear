@@ -107,23 +107,6 @@ void inserirElemento()
 // deve ser implementada como resposta ao exercicio
 void buscarElemento()
 {
-	int busca = 0;
-	int buscaC = 0;
-	int ctrl = 0;
-
-	cout << "Insira o numero que deseja buscar: \n";
-	cin >> busca;
-
-	for (buscaC = 0; buscaC <= busca; buscaC++) {
-		if(lista[buscaC] == busca){
-			cout << "Valor encontrado na poosicao " << buscaC << endl;
-			ctrl++;
-		}
-		
-	}
-	if (ctrl == 0) {
-		cout << "Valor nao encontrado" << endl;
-	}
 
 
 	
